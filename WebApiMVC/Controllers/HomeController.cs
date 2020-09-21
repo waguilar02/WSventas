@@ -26,6 +26,7 @@ namespace WebApiMVC.Controllers
             List<CL_OF_Prd_Consult> ClientList = JsonConvert.DeserializeObject<List<CL_OF_Prd_Consult>>(Json);
 
 
+
             return View(ClientList);
         }
 

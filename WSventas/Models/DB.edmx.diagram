@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8030e41b5b13487b8b12e29357c9214a" Name="Diagram1">
+        <EntityTypeShape EntityType="VentasRegistroModel.Cliente" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VentasRegistroModel.Concepto" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VentasRegistroModel.OficinaDeVenta" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VentasRegistroModel.Producto" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <AssociationConnector Association="VentasRegistroModel.FK_Concepto_Producto" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="VentasRegistroModel.sysdiagrams" Width="1.5" PointX="5.375" PointY="4.75" />
+        <EntityTypeShape EntityType="VentasRegistroModel.VentaOrden" Width="1.5" PointX="3" PointY="0.75" />
+        <AssociationConnector Association="VentasRegistroModel.FK_VentaOrden_Cliente" />
+        <AssociationConnector Association="VentasRegistroModel.FK_Concepto_VentaOrden" />
+        <AssociationConnector Association="VentasRegistroModel.FK_VentaOrden_OficinaDeVenta" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

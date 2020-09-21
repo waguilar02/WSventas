@@ -1,3 +1,4 @@
+-- Cadena de conexion utilizada   user sa password 123456
 USE [master]
 GO
 /****** Object:  Database [VentasRegistro]    Script Date: 21/09/2020 10:10:29 ******/
